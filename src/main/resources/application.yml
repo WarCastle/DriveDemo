@@ -1,0 +1,28 @@
+server:
+  port: 35007
+spring:
+  application:
+    name: DriveAssured
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/drive_assured?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+  redis:
+    host: 124.222.111.81
+    port: 5268
+    password: 6379yun5268
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        time-between-eviction-runs: 10s
+    database: 2
+  jackson:
+    default-property-inclusion: non_null # JSON处理时忽略非空字段
+mybatis-plus:
+  type-aliases-package: com.castle.drive.domain.entity # 别名扫描包
+logging:
+  level:
+    com.castle.drive: debug

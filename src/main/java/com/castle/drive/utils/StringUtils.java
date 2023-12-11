@@ -1,7 +1,7 @@
-package com.castle.drive.utils;
+package com.ruoyi.drive.utils;
 
 import cn.hutool.core.text.StrBuilder;
-import com.castle.drive.exception.UtilException;
+import com.ruoyi.drive.exception.UtilException;
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

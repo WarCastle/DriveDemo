@@ -1,4 +1,4 @@
-package com.castle.drive.config;
+package com.ruoyi.drive.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;

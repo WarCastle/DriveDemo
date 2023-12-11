@@ -1,4 +1,4 @@
-package com.castle.drive.exception;
+package com.ruoyi.drive.exception;
 
 /**
  * @author YuLong

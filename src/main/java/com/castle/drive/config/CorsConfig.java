@@ -1,4 +1,4 @@
-package com.castle.drive.config;
+package com.ruoyi.drive.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

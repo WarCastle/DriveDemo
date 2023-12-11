@@ -1,4 +1,4 @@
-package com.castle.drive.domain.entity;
+package com.ruoyi.drive.domain.entity;
 
 import lombok.Data;
 
